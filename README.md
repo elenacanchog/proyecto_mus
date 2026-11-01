@@ -36,11 +36,11 @@ Colocas **4 cartas** sobre la mesa, la cámara las ve, y el programa dibuja sobr
 - Las jugadas de la mano, con las reglas de **8 reyes** (el 3 vale como un rey y el 2 como un as):
 
 ```
-Mesa: [7, 12, 3, 1]
-Pareja: Si | Medias
+Mesa: [12, 3, 11, 1]
+Pareja: Si | Par
 Juego: Si | Puntos: 31 (Max!)
 Grandes: Rey/3, Rey/3
-Chicas: As/Pito, Siete
+Chicas: As/Pito, Caballo
 ```
 
 Para reconocer los números se usan unos **moldes** (una imagen por número) que se generan una sola vez a partir de una foto de la baraja. Después, cada carta se compara en directo con esos moldes.

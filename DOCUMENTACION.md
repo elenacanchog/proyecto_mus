@@ -294,7 +294,7 @@ La función `evaluar_mus(mano_cruda)` recibe una lista de enteros (los números 
 3. **Juego:** suma con las figuras (10, 11, 12) valiendo 10. Si es ≥ 31 hay juego (y `(Max!)` si es exactamente 31); si no, se informa el punto.
 4. **Grandes y chicas:** se ordena la mano de mayor a menor. Las dos primeras son las grandes y las dos últimas las chicas. Se muestran con nombre: `Rey/3`, `Caballo`, `Sota`, `Siete`, `Seis`, `Cinco`, `Cuatro`, `As/Pito`.
 
-Esta capa **no usa OpenCV**: se puede probar pasándole una lista de números, por ejemplo `evaluar_mus([7, 12, 3, 1])`.
+Esta capa **no usa OpenCV**: se puede probar pasándole una lista de números, por ejemplo `evaluar_mus([12, 3, 11, 1])`, que devuelve `['Pareja: Si | Par', 'Juego: Si | Puntos: 31 (Max!)', 'Grandes: Rey/3, Rey/3', 'Chicas: As/Pito, Caballo']` (el 3 cuenta como rey, así que hay dos reyes).
 
 ### 3.8 Configuración (`config_cartas.py`)
 
